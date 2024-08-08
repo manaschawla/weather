@@ -1,7 +1,8 @@
+""" this code is to access weather of different cities"""
 import requests
 import pandas as pd
 #enter your api key
-api_key = '23ea82dd0423ef1ef85ba0213ab4dc30'
+api_key = 'enter your api_key'
 city_name = input("enter the name of the city: ")
 #construct the api url
 url = f"http://api.openweathermap.org/data/2.5/forecast?q={city_name}&id=524901&appid={api_key}"
